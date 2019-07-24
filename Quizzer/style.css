@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #48848F;
+    font-weight: bolder;
+    text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+  }
+  
+  h1 {
+    font-size: 38px;
+  }
+  
+  h2, footer, .start-page p {
+    color: #84CEDB;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .card {
+    width: 200px;
+  }
+  
+  button, .answer-option {
+    background-color: #825430;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid black;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .answer-option {
+    width: 45%;
+    max-width: 200px;
+    margin-bottom: 5%;
+    height: 4rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .disabled {
+    pointer-events: none;
+  }
+  
+  .answer-option:hover {
+    transform: scale(1.05);
+  }
+  
+  .green {
+    background-color: #00723E;
+  }
+  
+  .red {
+    background-color: #D31F2A;
+  }
+  
+  .pop-up {
+    position: relative;
+    background-color: #543C22;
+    border: solid #422914;
+    width: 12em;
+    height: 12em;
+    padding: 10px;
+    bottom: 250px;
+  }
+  
+  .proceed {
+    background-color: #825430;
+    margin-top: 30px;
+  }
+  
+  @media screen and (min-width: 808px) {
+    .card {
+      width: 300px;
+    }
+    .start-page p {
+      font-size: 32px;
+    }
+    h1 {
+      font-size: 58px;
+    }
+    footer {
+      font-size: 24px;
+    }
+  }

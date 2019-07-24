@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form id="quizCreator">
+      <fieldset class="q0">
+        <legend>Question 1</legend>
+        Question: <input class="q" type="text" required><br>
+        Option1: <input class="op op1" type="text" required><br>
+        Option2: <input class="op op2" type="text" required><br>
+        Option3: <input class="op op3" type="text" required><br>
+        Option4: <input class="op op4" type="text" required><br>
+        Correct Answer: <select class="selector" required>
+          <option value="option-1">Option1</option>
+          <option value="option-2">Option2</option>
+          <option value="option-3">Option3</option>
+          <option value="option-4">Option4</option>
+        </select>
+      </fieldset>
+      <input type="button" class="repeater" value="Add Another Question to the Quiz"><br>
+      <input type="submit" class="submitter">
+    </form>
+
+    <p></p>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
